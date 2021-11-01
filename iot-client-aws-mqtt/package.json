@@ -1,0 +1,19 @@
+{
+  "name": "aws-iot-expriments",
+  "version": "1.0.0",
+  "description": "Experimient - IoT client program",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ezex",
+  "license": "ISC",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.10",
+    "install": "^0.13.0",
+    "node-dht-sensor": "^0.4.3",
+    "npm": "^7.20.3",
+    "uuid": "^8.3.2"
+  }
+}
