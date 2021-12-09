@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "mqtt": "^4.2.8",
-    "nodemon": "^2.0.13"
+    "nodemon": "^2.0.15"
   },
   "engines": {
     "node": "16.x"
