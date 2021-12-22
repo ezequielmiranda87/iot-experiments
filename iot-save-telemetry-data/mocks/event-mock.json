@@ -1,0 +1,11 @@
+{
+  "serialNumber": "SN-D7F3C8947867",
+  "dateTime": "2021-9-17 12:46:49",
+  "activated": "true",
+  "device": "MyRaspperry-01",
+  "type": "MySmartIoTDevice",
+  "payload": {
+    "pressure": 80,
+    "temperature": 39
+  }
+}

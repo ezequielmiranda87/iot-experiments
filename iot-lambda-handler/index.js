@@ -1,23 +1,20 @@
-
-console.log('Loading function');
 const AWS = require('aws-sdk');
 const dynamo = new AWS.DynamoDB.DocumentClient();
 
 const collection = "IoTCatalog"
 
-// Handler lamda function
-exports.handler = function (event, context) {
+exports.handler = function (event = { serialNumber = '', dateTime = '', activated = false, clientId = '', device = '', type = '', payload = {} }, context) {
     console.log('Received event:', JSON.stringify(event, null, 2));
     const params = {
         TableName: collection,
         Item: {
-            "serialNumber": event.serialNumber,
-            "timestamp": event.dateTime,
-            "activated": event.activated,
-            "clientId": event.clientId,
-            "device": event.device,
-            "type": event.type,
-            "payload": event.payload
+            "serialNumber": serialNumber,
+            "timestamp": dateTime,
+            "activated": activated,
+            "clientId": clientId,
+            "device": device,
+            "type": type,
+            "payload": payload
         }
     };
 
