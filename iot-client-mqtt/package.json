@@ -10,7 +10,7 @@
   "author": "Ezex <ezequielmiranda87@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "mqtt": "^4.2.8",
+    "mqtt": "^5.3.5",
     "nodemon": "^2.0.15"
   },
   "engines": {
